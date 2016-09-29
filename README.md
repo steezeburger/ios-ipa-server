@@ -1,7 +1,5 @@
 Install IPA with HTTPS, and auto generate certificates.
 
-[中文介绍](./README.md)
-
 # Support Platform
 * OS X
 * Ubuntu
