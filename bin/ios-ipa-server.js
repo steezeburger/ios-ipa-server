@@ -32,7 +32,7 @@ var globalCerFolder = os.homedir() + '/.ios-ipa-server/' + ipAddress;
 /**
  * Main program.
  */
-process.exit = exit
+process.exit = exit;
 
 // CLI
 

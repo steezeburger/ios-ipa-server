@@ -12,11 +12,9 @@
 </head>
 <body>
 
-<h3>【微信扫描此页面不能显示】，请点击右上角“在Safari中打开”</h3>
-
 <div id="qrcodeTable"></div>
 
-<h3><a id='cer' href="https://{{ip}}:{{port}}/cer/myCA.cer">如果出现【无法验证服务器身份】或【无法连接到】，请点击此链接安装证书</a></h3>
+<h3><a id='cer' href="https://{{ip}}:{{port}}/cer/myCA.cer">Click here to download the cert</a></h3>
 
 <ul>
 {{#items}}
@@ -26,7 +24,7 @@
 		<span class="name">{{name}}</span>
 		<div class="desc">{{description}}</div>
 	</div>
-	<a href="itms-services://?action=download-manifest&url=https://{{ip}}:{{port}}/plist/{{name}}" class="link">下载</a>
+	<a href="itms-services://?action=download-manifest&url=https://{{ip}}:{{port}}/plist/{{name}}" class="link">Download</a>
 </li>
 <hr/>
 {{/items}}
